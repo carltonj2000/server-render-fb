@@ -8,8 +8,14 @@ video.
   - `firebase serve` to serve/hosting locally
   - `firebase init functions` to setup firebase cloud functions
   - `firebase serve --only functions,hosting` to serve/hosting locally
+  - `firbase use --add` to add another firebase project and alias.
 
 Deployments:
 
   - [Client](https://server-render.firebaseapp.com)
   - [Server](https://us-central1-server-render.cloudfunctions.net/ssrapp)
+
+When deploying the server version rename `index.html` in `public` so that
+the functions `index` is picked up and used.
+Use `firebase use <alias>` to select the deployment, where the `<alias>`
+is either `client` or `server`.

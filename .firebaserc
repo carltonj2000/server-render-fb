@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "server-render"
+    "default": "server-render",
+    "client": "client-render",
+    "server": "server-render"
   }
 }
