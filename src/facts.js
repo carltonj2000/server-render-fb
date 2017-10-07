@@ -1,5 +1,7 @@
 import fetch from 'isomorphic-fetch';
 
+const url = "https://server-render.firebaseapp.com/facts.json";
+
 export default function getFacts() {
-  return fetch('http://localhost:5000/facts.json').then(res => res.json());
+  return fetch(url).then(res => res.json());
 }
