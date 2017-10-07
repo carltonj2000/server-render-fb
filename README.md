@@ -12,8 +12,8 @@ video.
 
 Deployments:
 
-  - [Client](https://server-render.firebaseapp.com)
-  - [Server](https://us-central1-server-render.cloudfunctions.net/ssrapp)
+  - [Server](https://server-render.firebaseapp.com)
+  - [Client](https://)
 
 When deploying the server version rename `index.html` in `public` so that
 the functions `index` is picked up and used.
